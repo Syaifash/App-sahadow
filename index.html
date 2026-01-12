@@ -1,13 +1,11 @@
 <!DOCTYPE html>
-<html lang="id">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Redirect</title>
-    <script>
-        window.location.href = "http://privserv.my.id:2018";
-    </script>
+  <meta charset="UTF-8">
+  <script>
+    fetch("https://raw.githubusercontent.com/Syaifash/App-sahadow/main/link.txt")
+      .then(r => r.text())
+      .then(u => location.replace(u.trim()));
+  </script>
 </head>
-<body>
-    <p>Mohon tunggu, sedang diarahkan...</p>
-</body>
 </html>
