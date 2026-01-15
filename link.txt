@@ -1,1 +1,1 @@
-privserv.my.id:2018
+http://privserv.my.id:2018
